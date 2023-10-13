@@ -1,0 +1,40 @@
+.mainPro{
+    width:100%;
+    height:500px;
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pContainer{
+    min-height:50%;
+    display:flex;
+    overflow-x:auto;
+    overflow-y: hidden;
+}
+
+.pContainer::-webkit-scrollbar{
+    width:0;
+}
+
+.pContainer .box{
+    min-width:110px;
+    height: 110px;
+    line-height: 110px;
+    background-color: red;
+    margin-right:2px;
+}
+
+@media screen and (max-width: 768px){
+
+    .pContainer .box{
+        min-width:100%;
+        height: 110px;
+        line-height: 110px;
+        background-color: red;
+        margin-right:2px;
+    }
+
+    
+}

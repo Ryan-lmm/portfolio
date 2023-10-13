@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+ 
+:target {
+  scroll-margin-top: .8em;
+}
+
+body{
+    background-color: black;
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+    background-color: black;
+    width:10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color:#ff7300;
+    border-radius: 10px;
+}
+
