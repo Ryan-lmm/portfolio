@@ -6,7 +6,7 @@ import Projects from './projects';
 import Button from './components/btnTop/btn';
 
 export const metadata = {
-  title:'aprendendo',
+  title:'Portifólio',
   
 
 }
