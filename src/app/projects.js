@@ -3,9 +3,6 @@
 import style from './projects.module.css'
 import Image from 'next/image'
 import Script from 'next/script'
-import star from '../../public/star.PNG'
-import lan from '../../public/landing.PNG'
-import cof from '../../public/coffee.PNG'
 import Link from 'next/link'
 
 export const metadata = {
@@ -52,7 +49,7 @@ export default function Projects() {
                                 
                             }}
                             sizes='100vw'
-                            src={lan}
+                            src='/landing.PNG'
                             width={340}
                             height={400}
                             alt='landing'
@@ -76,7 +73,7 @@ export default function Projects() {
                                 height: 'auto'
                             }}
                             sizes='100%'
-                            src={cof}
+                            src='/coffee.PNG'
                             width={340}
                             height={400}
 
