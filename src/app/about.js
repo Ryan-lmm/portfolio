@@ -34,7 +34,7 @@ export default function About(){
                     })
                 }
                 write(texto)
-                }, 8000)
+                }, 4000)
 
                 
 
