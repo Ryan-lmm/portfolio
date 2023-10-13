@@ -49,7 +49,7 @@ export default function Projects() {
                                 
                             }}
                             sizes='100vw'
-                            src='/landing.PNG'
+                            src='/landing.png'
                             width={340}
                             height={400}
                             alt='landing'
@@ -73,11 +73,11 @@ export default function Projects() {
                                 height: 'auto'
                             }}
                             sizes='100%'
-                            src='/coffee.PNG'
+                            src='/coffee.png'
                             width={340}
                             height={400}
 
-                            alt='starbucks'
+                            alt='coffee'
                             priority='true'
 
                         /></Link></p>
